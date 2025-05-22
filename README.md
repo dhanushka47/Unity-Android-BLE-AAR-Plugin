@@ -14,24 +14,7 @@ A comprehensive example and guide for creating a custom Android AAR plugin to en
 - Unity C# scripts to call plugin methods and display BLE scan results
 - Ready-to-use integration setup for Unity projects
 
----
 
-## 📁 Repository Structure
-
-Unity-Android-BLE-AAR-Plugin/
-├── AndroidPlugin/             # Android Studio project for BLE plugin
-│   ├── src/main/java/com/excel/unityplugin/BLEManager.java
-│   ├── AndroidManifest.xml
-│   └── build.gradle
-├── UnityProject/              # Unity example project
-│   ├── Assets/
-│   │   ├── Plugins/Android/BLEPlugin.aar   # Compiled AAR plugin (add after build)
-│   │   └── Scripts/
-│   │       ├── AndroidBLEManager.cs
-│   │       └── BLEUIController.cs
-├── README.md                  # This file
-
----
 
 ## ⚙️ Building the AAR Plugin
 
